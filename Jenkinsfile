@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git credentialsId: "${GIT_CREDENTIALS}", url: 'https://github.com/<your-user>/<your-repo>.git'
+        git credentialsId: "${GIT_CREDENTIALS}", url: 'https://github.com/Vinays9535/ner-flask-.git'
       }
     }
 
